@@ -1,5 +1,5 @@
 import random as rd
-ganancia_aletoria = [0.03,0.010,0.50]
+ganancia_aletoria = [0.03,0.010,0.50,0.01]
 ege = int(input("Ingrese su edad: "))
 capital_inversion = float(input("Ingrese su capital inicial: "))
 eleccion = rd.choice(ganancia_aletoria)

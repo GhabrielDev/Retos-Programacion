@@ -23,4 +23,5 @@ elif money < price:
     except ValueError:
        print('Error puso una letra,por favor arregle eso y coloque numero')  
 else:
-    print(f"Compra exitosa.Gracias por comprar en makro vuelva pronto")       
+    print(f"Compra exitosa.Gracias por comprar en makro vuelva pronto")     
+print('Chao amigo')      
