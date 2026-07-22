@@ -3,7 +3,7 @@ import time
 
 print('---- FUTURO MILLONARIO ----')
 
-motivacion = ['si puedes','vamos pa ensima','el proceso','disfruta tu proceso']
+motivacion = ['si puedes','vamos pa ensima','el proceso','disfruta tu proceso','la constancia es la clave del exito']
 obgetivos = ['leer todos los dias asi sea un rato','ser constante con lo que te gusta','ganar tus primeros 50 dolares']
 
 retos = ['']
