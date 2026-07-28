@@ -1,0 +1,5 @@
+print("Menu Principal")
+print('1.Registrar prenda')
+print('2.Registrar venta')
+print('3.Ver inventario')
+print('4.Salir')
