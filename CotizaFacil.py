@@ -1,9 +1,19 @@
+def pedir_nombres(mensaje):
+    while True:
+      try:
+          entrada = input(mensaje).strip().title()
+          if not entrada:
+              raise ValueError("El nombre no puede estar vacio.")
+          return entrada
+      except ValueError as e:
+          print(f"Entrada invalida:{e}")
+          
 productos = []
 tasa_dia = int(input("Ingrese la tasa del dia: "))
 
 while True:
  try:
-     producto = input("Ingresa el nombre del producto: ")
+     producto = pedir_nombres("Ingresa el nombre del producto: ")
 
      precio = float(input(f"Ingrese el precio de {producto}:$"))
 
