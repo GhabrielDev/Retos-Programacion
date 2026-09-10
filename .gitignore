@@ -1,4 +1,4 @@
-# Visual Studio Code (¡esto evita las "letras raras" de las extensiones!)
+# Visual Studio Code (¡esto evita las "letras raras" de las extensiones)
 .vscode/
 *.code-workspace
 
@@ -10,9 +10,6 @@ Thumbs.db
 venv/
 .venv/
 __pycache__/
-
-# Dependencias de JavaScript / Node (si usas JS)
-node_modules/
 
 # Archivos de variables secretas / llaves
 .env

@@ -2,7 +2,7 @@
 def pedir_nombre(mensaje):
    while True: 
      try:
-       entrada = input("").strip().title()
+       entrada = input(mensaje).strip().title()
        if not entrada:
         raise ValueError("No puede estar vacio")
        return entrada
