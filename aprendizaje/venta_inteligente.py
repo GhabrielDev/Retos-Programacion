@@ -5,6 +5,7 @@ product = input(f'Ingrese el producto: ').lower()
 price = float(input(f'Ingrese del precio de la ropa:$ '))
 money = float(input(f'Cuanto efectivo vas a dar en dolares:$ '))
 print('-' * 40)
+
 if money > price:
     vuelto = money - price
     print(f'Compra exitosa tu vuelto es de {vuelto:.2f}')

@@ -1,5 +1,5 @@
 
-ventas = [45.0, 80.0, 30.0, 60.0]
+ventas = []
 def calculos_reporte(ventas):
 
  total_vendido = 0
@@ -18,4 +18,6 @@ def calculos_reporte(ventas):
  print(f"Total vendido:{total_vendido}$|Ganancia venta:{comision}$")   
     
 (calculos_reporte(ventas))
+
+print()
     
